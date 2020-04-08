@@ -1,0 +1,631 @@
+/* General Design */
+body,p {
+	font-family: "libre-franklin", sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+section h4 {
+	font-size:1.75rem;
+	font-weight:300;
+}
+
+section h2.header {
+	font-weight: 600;
+	text-align: center;
+	font-size: 2.75rem;
+	margin-bottom: 0.5rem;
+	color: #01394d;
+}
+
+hr {
+	width: 300px;
+	border-top: 3px solid black;
+}
+
+section p {
+	font-size:1.5em;
+	font-weight:300;
+	line-height:2rem;
+}
+
+.img-div {
+	align-items:flex-end;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+figure {
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	margin:2rem 1rem;
+}
+
+figcaption {
+	font-size:1.25rem;
+	margin-top:1rem;
+}
+
+.cta {
+	background-color:#01394d;
+	border-radius:3px;
+	color:#FFF;
+	display:block;
+	font-size:1.5rem;
+	width:300px;
+	text-align:center;
+	text-decoration:none;
+	text-emphasis-style:bold;
+	text-transform:uppercase;
+	margin:4rem 0;
+	padding:1em 0em;
+}
+
+img {
+	max-width:400px;
+}
+
+section.container {
+	max-width:1200px;
+	margin:auto;
+	padding:2.5rem;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:active {
+	color:#FFBF00;
+}
+
+ul.links {
+	display:flex;
+}
+
+ul.links li {
+	margin-left:60px;
+}
+
+.button {
+	background-color:#000;
+	border-radius:3px;
+	color:#FFF;
+	margin-top:.5rem;
+	max-width:170px;
+	text-align:center;
+	text-decoration:none;
+	text-emphasis-style:bold;
+	text-transform:uppercase;
+	padding:1em 1.5em;
+}
+
+h5 {
+	margin-top:1rem;
+	font-weight: 500;
+}
+
+/* Nav design */
+nav section.container {
+	align-items:center;
+	color:#FFF;
+	display:flex;
+	justify-content:space-between;
+	padding-bottom:0;
+	flex-wrap: wrap;
+}
+
+nav img {
+	max-height: 60px;
+}
+
+nav a {
+	color:#FFF;
+	font-size:1.5rem;
+	font-weight:700;
+}
+
+/* Home Page Design */
+section.hero h1 {
+	background-color:#000;
+	color:#FFF;
+	font-size:3rem;
+	font-weight:700;
+}
+
+section.hero h2 {
+	background-color:#000;
+	color:#FFF;
+	font-size:1.5rem;
+	line-height:1.875rem;
+	margin-top:1.5rem;
+	max-width:480px;
+}
+
+section.intro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section.intro article {
+	max-width: 800px;
+}
+
+section.main .container {
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+}
+
+section.intro-image figure {
+	margin: 1rem;
+}
+
+section.intro-image img {
+	max-height:600px;
+}
+
+section.main p {
+	font-size:1.875rem;
+	font-weight:lighter;
+	line-height:3rem;
+	min-width:380px;
+}
+
+section.case-study {
+	display: flex;
+	padding: 2rem 0.5rem;
+	justify-content: space-between;
+}
+
+section.case-study img {
+	max-width: 650px;
+	height:auto;
+}
+
+article.case-study-text {
+	height:auto;
+}
+
+section.case-study h3 {
+	font-size:60px;
+	font-weight:800;
+	margin-bottom:0.75rem;
+}
+
+section.case-study h4 {
+	font-size:1.8rem;
+	line-height: 1.25
+}
+
+section.case-study p {
+	font-size:1rem;
+	margin:1rem 0;
+}
+
+section.case-study article {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+section.case-study section {
+	display:flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+
+section.title {
+	margin-top:0;
+}
+
+section.title h1 {
+	font-size:3.75rem;
+	font-weight:700;
+	margin:1rem 0;
+}
+
+/* Project Page */
+section.container.cs-page {
+	max-width: 960px;
+}
+
+section.prototype a.header {
+	font-weight: 600;
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-decoration: underline;
+	color: #01394d;
+}
+
+section.container.cs-page h3{
+	display: flex;
+	justify-content: space-between;
+}
+
+section.container.cs-page h3 {
+	display: flex;
+	justify-content: space-between;
+}
+
+section.cs-page section.title h2 {
+	font-size:2rem;
+	font-weight:300;
+}
+
+section.cs-page h3 {
+	border-bottom:2px solid #000;
+	font-size:2.5rem;
+	font-weight:600;
+	margin-bottom:1rem;
+	margin-top:1rem;
+}
+
+section.cs-page li {
+	font-size:1.4rem;
+	font-weight:300;
+	list-style-type:square;
+	margin-left:3rem;
+	margin-top:.25rem;
+}
+
+section.cs-page section.prototype img {
+	height:auto;
+	max-width:200px;
+	margin:0 auto;
+}
+
+section.cs-page section.prototype a {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+section.cs-page section {
+	margin-top:2rem;
+}
+
+section.cs-page ul {
+	margin-top:.5rem;
+}
+
+section.cs-page p {
+	margin-top:.25rem;
+}
+
+section.research span {
+	color:#8b0000;
+	font-size:1.6rem;
+	font-weight:500;
+}
+
+section.cs-page img {
+	height:auto;
+	max-width:180px;
+}
+
+section.cs-page img.large {
+	height:auto;
+	max-width:500px;
+}
+
+section.cs-page img.medium {
+	max-width:300px;
+}
+
+div.brand-logos img.logo {
+	height:100px;
+}
+
+nav,section.hero {
+	background-color:#000;
+}
+
+section.main,section.bg {
+	background-color:#F2EFF4;
+}
+
+section.case-study .aside-cs,section.prototype {
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+}
+
+div.competition img {
+	height:auto;
+	max-width:150px;
+	padding:20px;
+}
+
+#live-page {
+	max-width: 400px;
+}
+
+/* About page */
+section.container.about {
+	display: block;
+}
+
+section.container.about p {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
+section.container.about img {
+	margin-left: 30px;
+	margin-right: 0px;
+	float: right;
+	max-height: 600px;
+}
+
+/* Footer Design */
+footer {
+	background-color:#000;
+	color:#FFF;
+	padding-bottom:1.25rem;
+	padding-top:3.5rem;
+}
+
+footer section {
+	display:flex;
+	font:1.5rem;
+	justify-content: center;
+}
+
+footer a {
+	color:#FFF;
+	font-weight:800;
+	margin:1rem 3rem;
+}
+
+footer p {
+	color:grey;
+	font-size: 1rem;
+}
+
+footer section span {
+	font-size:1.65rem;
+	font-weight: 300;
+}
+
+section h5 {
+	font-size: 1.65rem;
+}
+
+/* Modal*/
+.modal-window {
+	position: fixed;
+	background-color: rgba(200, 200, 200, 0.75);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+
+  .modal-window:target {
+	opacity: 1;
+	pointer-events: auto;
+  }
+
+  .modal-window>div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 2rem;
+	background: #fff;
+	color: #444;
+  }
+
+  .modal-window header {
+	font-weight: bold;
+  }
+
+  .modal-close {
+	color: #aaa;
+	line-height: 50px;
+	font-size: 80%;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 70px;
+	text-decoration: none;
+  }
+
+  .modal-close:hover {
+	color: #000;
+  }
+
+/* form design */
+form input, form textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+/* Responsive Design */
+@media (max-width: 1212px) {
+	nav {
+		background-color: black;
+	}
+
+	section.intro-image figure {
+		margin-top: 0;
+	}
+	section.intro-image figure img {
+		height: 400px;
+	}
+
+	section.container.about img {
+		max-height: 400px;
+		margin-left: 30px
+	}
+
+	section.case-study img  {
+		max-width: 500px;
+		height:auto;
+	}
+}
+
+@media (max-width: 932px) {
+	nav {
+		background-color: black;
+	}
+	nav section.container {
+		flex-direction: column;
+	}
+	nav section.container li{
+		margin: 1rem 1.5rem;
+	}
+
+	section.container.intro p {
+		text-align: left;
+		margin-top: 1rem;
+	}
+
+	section.container.intro section.container {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	section.case-study img  {
+		max-width: 375px;
+		height:auto;
+	}
+
+	section.case-study {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	section.case-study {
+		text-align: center;
+	}
+}
+
+@media (max-width: 601px) {
+
+	section.container.intro {
+		flex-direction: column;
+	}
+
+	section.container.container {
+		padding: 1rem;
+		text-align: center;
+	}
+
+	section.intro-image figure {
+		margin-top: 0;
+	}
+	section.intro-image figure img {
+		height: 175px;
+	}
+
+	nav {
+		background-color: black;
+	}
+
+	section.cs-page section p, li, h1, h2, h3, h4, h5, h6 {
+		text-align: left;
+	}
+
+	section.cs-page section p {
+		font-size: 1.15rem;
+		line-height: 1.4rem;
+	}
+	section.cs-page section li {
+		font-size: 1.15rem;
+		line-height: 1.4rem;
+	}
+	section.cs-page section span {
+		font-size: 1.25rem;
+	}
+	section.container.about {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	section.container.about img {
+		margin: 30px;
+	}
+
+	section.main p {
+		font-size:1.3rem;
+		font-weight:lighter;
+		line-height:2rem;
+		min-width:80%;
+		margin: 0 0.5rem;
+	}
+
+	nav ul.links {
+		display: flex;
+	}
+
+	nav ul.links li{
+		margin: 0.5rem;
+		line-height: 2rem;
+	}
+
+	nav ul.links li a {
+			font-size: 1rem;
+	}
+
+	footer {
+		padding: 1rem;
+	}
+
+	footer section.links {
+		margin-top: .25rem;
+		display: flex;
+	    flex-direction: column;
+		align-items: center;
+	}
+
+	section.links a {
+		margin: .25rem;;
+	}
+
+	footer p {
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	section.case-study img  {
+		max-width: 280px;
+		height:auto;
+	}
+
+	.modal-window>div {
+		width: 80%;
+	  }
+
+	.cta {
+		margin: 2rem auto;
+	}
+
+	section.cs-page img.large {
+		height:auto;
+		max-width:320px;
+	}
+
+	footer p {
+		color:grey;
+		font-size: .75rem;
+	}	
+}
